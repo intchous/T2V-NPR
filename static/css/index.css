@@ -121,6 +121,10 @@ body {
   border-radius: 10px;
   padding: 0;
   font-size: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .results-carousel video {
@@ -154,4 +158,9 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+.shadow-style {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  /* border-radius: 4px; */
 }
